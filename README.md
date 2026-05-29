@@ -44,6 +44,7 @@ Editing "mpd.conf"
 
 *   Download my edited version (but dont forget to change dir paths to match those of your phone), Change as necessary. Mine has 432HZ enabled for fifo and access to all networks...
 *   #Code:<br><br>
+```
     audio_output {<br>
         type            "fifo"<br>
         name            "FFmpeg Convolution Pipe"<br>
@@ -51,12 +52,15 @@ Editing "mpd.conf"
         enabled         "yes"<br>
         filters         "432hz"<br>
 
+
 }<br><br>
 filter {<br>
         plugin "ffmpeg"<br>
         name   "432hz"<br>
         graph  "rubberband=pitch=0.981818"<br>
-}<br><br>
+}
+```
+<br><br>
 *   When done editing your "mpd.conf" type "ctrl-x", "y", "ctrl-m" on your virtual keyboard.
 <br><br>
 *fifo2ffplay.sh uses "dearvr.wav" impulse response (included on this page) and "clubfritz.sofa"
