@@ -48,7 +48,7 @@ Editing "mpd.conf"
 audio_output {
   type            "fifo"
   name            "FFmpeg Convolution Pipe"
-  path    "~/mpd.fifo"
+  path            "~/mpd.fifo"
   enabled         "yes"
   filters         "432hz"
 }
