@@ -51,8 +51,6 @@ audio_output {
   path    "~/mpd.fifo"
   enabled         "yes"
   filters         "432hz"
-
-
 }
 filter {
   plugin "ffmpeg"
