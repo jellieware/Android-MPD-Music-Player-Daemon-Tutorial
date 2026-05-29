@@ -45,19 +45,19 @@ Editing "mpd.conf"
 *   Download my edited version (but dont forget to change dir paths to match those of your phone), Change as necessary. Mine has 432HZ enabled for fifo and access to all networks...
 *   #Code:<br><br>
 ```
-    audio_output {<br>
-        type            "fifo"
-        name            "FFmpeg Convolution Pipe"
-        path    "~/mpd.fifo"
-        enabled         "yes"
-        filters         "432hz"
+audio_output {
+  type            "fifo"
+  name            "FFmpeg Convolution Pipe"
+  path    "~/mpd.fifo"
+  enabled         "yes"
+  filters         "432hz"
 
 
 }
 filter {
-        plugin "ffmpeg"
-        name   "432hz"
-        graph  "rubberband=pitch=0.981818"
+  plugin "ffmpeg"
+  name   "432hz"
+  graph  "rubberband=pitch=0.981818"
 }
 ```
 <br><br>
