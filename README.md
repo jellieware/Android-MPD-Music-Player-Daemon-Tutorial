@@ -46,18 +46,18 @@ Editing "mpd.conf"
 *   #Code:<br><br>
 ```
     audio_output {<br>
-        type            "fifo"<br>
-        name            "FFmpeg Convolution Pipe"<br>
-        path    "~/mpd.fifo"<br>
-        enabled         "yes"<br>
-        filters         "432hz"<br>
+        type            "fifo"
+        name            "FFmpeg Convolution Pipe"
+        path    "~/mpd.fifo"
+        enabled         "yes"
+        filters         "432hz"
 
 
-}<br><br>
-filter {<br>
-        plugin "ffmpeg"<br>
-        name   "432hz"<br>
-        graph  "rubberband=pitch=0.981818"<br>
+}
+filter {
+        plugin "ffmpeg"
+        name   "432hz"
+        graph  "rubberband=pitch=0.981818"
 }
 ```
 <br><br>
