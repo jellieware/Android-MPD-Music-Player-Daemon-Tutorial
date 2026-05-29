@@ -63,6 +63,8 @@ filter {<br>
 <br><br>
 https://sofacoustics.org/data/database/clubfritz/
 <br><br>
+*Dont forget to change dir paths to match those of the location of "dearvr.wav" and "sofa" file*
+<br><br>
   
 MAFA Setup
 
