@@ -15,7 +15,7 @@ Requirements:
 *   ffmpeg + ffplay
 *   Optional: Revanced Manager Patch (Remove screen capture restriction)
 *   A virtual keyboard: "HackersKB" or "UnexpectedKB"
-*   Mafa GUI/Client (No Longer Available at the PlayStore) https://mafa.indi.software/
+*   Mafa GUI/Client (free) (No Longer Available at the PlayStore) https://mafa.indi.software/
 *   Some easy code editing necessary...
 
   
