@@ -58,7 +58,11 @@ filter {<br>
         graph  "rubberband=pitch=0.981818"<br>
 }<br><br>
 *   When done editing your "mpd.conf" type "ctrl-x", "y", "ctrl-m" on your virtual keyboard.
-
+<br><br>
+*fifo2ffplay uses "dearvr.wav" impulse response (included on this page) and "clubfritz.sofa"
+<br><br>
+https://sofacoustics.org/data/database/clubfritz/
+<br><br>
   
 MAFA Setup
 
