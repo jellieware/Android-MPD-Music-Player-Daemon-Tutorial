@@ -48,6 +48,11 @@ Editing "mpd.conf"
 # For network
 bind_to_address		"0.0.0.0"
 
+# This setting is the TCP port that is desired for the daemon to get assigned
+# to. Normally this is 6600 but for termux this port needs to be above 8000.
+
+port				"8600"
+
 audio_output {
   type            "fifo"
   name            "FFmpeg Convolution Pipe"
