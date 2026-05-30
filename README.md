@@ -13,7 +13,7 @@ Requirements:
 *   MPD (Music Player Daemon)
 *   MPC (Music Player Client)
 *   ffmpeg + ffplay
-*   Optional: Revanced Manager Patch (Remove screen capture restriction)
+*   Optional: Revanced Manager Patch (Remove screen capture restriction) to make it compatible with "rootlessjamesdsp"
 *   A virtual keyboard: "HackersKB" or "UnexpectedKB"
 *   Mafa GUI/Client (free) (No Longer Available at the PlayStore) https://mafa.indi.software/
 *   Some easy code editing necessary...
