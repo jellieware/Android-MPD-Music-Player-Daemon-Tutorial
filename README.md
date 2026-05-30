@@ -72,7 +72,7 @@ MAFA Setup
 * fifo2ffplay.sh uses "dearvr.wav" impulse response (included on this page) and "clubfritz.sofa"
 * https://sofacoustics.org/data/database/clubfritz/
 * Dont forget to change dir paths to match those of the location of "dearvr.wav" and "sofa" file
-* The bash script needs to be running at the same time as mafa/mpd
+* The bash script needs to be running at the same time as mafa/mpd: "bash /yourpath/fifo2ffplay.sh"
   
 Misc/Other
 
